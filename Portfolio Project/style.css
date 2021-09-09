@@ -1,0 +1,66 @@
+html{
+     background-color: rgb(0, 0, 0);
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size:13px;
+}
+#about{
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+.mycolor{
+    color: #f3ca20;
+}
+.mycolor:hover{
+    color: #f3ca20;
+}
+#mainNavbar{
+    font-size: medium;
+    font-family: 'Poppins', sans-serif;
+}
+/* for setting color to logo(text) */
+#mainNavbar .navbar-brand{
+    color:#FFBE13;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+#mainNavbar .nav-link{
+    font-size:medium;
+}
+
+/* for setting active link color */
+#mainNavbar .navbar-nav .active .nav-link{
+    color:#FFBE13;
+}
+#mainNavbar .navbar-nav .nav-link:hover{
+    color:#FFBE13;
+}
+@media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #1C2331!important;
+    }
+}
+
+.carousel,.carousel .carousel-inner,.carousel .carousel-inner .active,.carousel .carousel-inner .carousel-item,.view,body,html{
+    height:100%
+}
+.navbar{
+    background-color:rgba(0,0,0,.2)
+}
+.page-footer,.top-nav-collapse{
+    background-color:rgba(3, 3, 3, 0.932);
+}
+@media only screen and (max-width:768px){
+    .navbar{
+        background-color:rgba(3, 3, 3, 0.932);
+    }
+}
+@media only screen and (min-width:768px){
+   .block{
+    position: relative;
+    top:3rem;
+   }
+}
